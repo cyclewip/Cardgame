@@ -1,0 +1,45 @@
+.flexBox {
+    display: flex;
+}
+
+.flexBoxSpaceBetween {
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.picSize {
+    width: 200px;
+    height: 200px;
+}
+.picBackground{
+    background-color: rgba(0, 0, 255, 0.24);
+
+}
+
+.flexBoxMargin {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.border {
+    border: solid black 2px;
+}
+
+.paddingCards {
+    margin-right: 3%;
+}
+
+.bg {
+    background-image: url("/img/bg.jpg");
+    background-repeat:no-repeat;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto ;
+}
+
+h2{
+    text-align: center;
+    margin-right: 30%;
+}
